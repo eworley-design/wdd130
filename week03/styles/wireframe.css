@@ -1,0 +1,26 @@
+/*Fredoka font*/
+/*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700*/
+
+.fredoka-<uniquifier> {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/*Quicksand Font*/
+/*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 700*/
+
+.quicksand-<uniquifier> {
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {font-family: 'Fredoka', sans-serif;}
