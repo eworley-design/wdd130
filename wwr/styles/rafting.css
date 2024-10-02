@@ -1,0 +1,49 @@
+;:root
+
+header{
+    max-width: 800px;
+	margin: 2rem auto;
+	font-family: Fredoka;
+    
+}
+
+
+h1{
+    position: absolute;
+    text-align: center;
+    font-family: Fredoka;
+	font-size: 1.5rem;
+	text-shadow: 3px 3px 5px #777;
+
+}
+
+h2{
+    text-align: center;
+    font-family: Fredoka;
+	font-size: 1rem;
+	text-shadow: 3px 3px 5px #777;
+
+}
+
+article{
+    position:absolute;
+}
+
+article_image{
+    float:right
+}
+
+footer{
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+
+}
+
+/*Class Selectors*/
+
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
