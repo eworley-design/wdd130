@@ -1,9 +1,3 @@
-<!-- colors: 
- primary-color: Blue #023047
- secondary-color: light blue #8ECAE6
- accent1-color: orange #FB8500
- accent2-color: yellow #FFB703 
- -->
 
  <!DOCTYPE html>
  <html lang='en'>
@@ -13,8 +7,6 @@
          <title>Liz Worley | Spindrift Rafting</title>
          <meta name='description' content = ".CSS'">
          <meta name='author' content='Liz Worley'>
-         <meta name="description" content = "A website for white water rafting. You can learn about white water rafting, book trips with our
-            our company, and find contact info.">
          <link rel="stylesheet" href="styles/rafting.css">
          <link rel="preconnect" href="https://fonts.googleapis.com">
          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,29 +19,31 @@
          <header class="header">
              <img src="images/rafting_logo.jpeg" alt="Rafting Logo" width="250">
              <nav>
-                 <a href="index.html">Home</a>
-                 <a href="about.html">About Us</a>
-                 <a href="trips.html">Trips</a>
-                 <a href="contact.html">Contact Us</a>
+                 <a class='nav' href="index.html">Home</a>
+                 <a class='nav' href="about.html">About Us</a>
+                 <a class='nav' href="trips.html">Trips</a>
+                 <a class='nav' href="contact.html">Contact Us</a>
              </nav>
          </header>
          <main>
-            <div class="'hero">
-                <img src="images/hero_transparency_1024.png" alt="rafting photo">
-                <h1>Spindrift Rafting</h1>
-                <article>
-                    <img src="" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore quos reprehenderit quaerat 
-                        numquam soluta optio quo corrupti sit, laudantium ratione, esse corporis odit autem, 
-                        inventore rerum facilis dolores aperiam eaque.</p>
-                    </article>
+            <div class="hero">              
+                <img src="images/littlecolorado-wide.jpg" alt="rafting photo" class="hero-img">
+                <article >
+                    <h1 class="h1">Spindrift Rafting</h1>
+                    <img src="images/rafting21_600.jpg" alt="happy client" style="width:200px" id="article-img">
+                    <p  class="article">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore quos reprehenderit quaerat 
+                    numquam soluta optio quo corrupti sit, laudantium ratione, esse corporis odit autem, 
+                    inventore rerum facilis dolores aperiam eaque.</p>
+                </article>
             </div>
+
             <section>
                 <h2>History</h2>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati, itaque! Aliquam doloremque 
                     perferendis alias, consequuntur repudiandae totam ratione asperiores vel aspernatur sed earum 
                     itaque non illum, distinctio perspiciatis nam soluta.</p>
             </section>
+
             <section>
                 <h2>Adventure Awaits You!</h2>
                 <img src="images/rafting1_600.jpg" alt="rafting photo" width="200">
@@ -61,15 +55,17 @@
         </main>
         <footer>
             <p>©2024 | Spindrift Rafting | Liz Worley</p>
-            <a href="https://facebook.com">
-                <img scr="images/facebook.jpeg" alt="Facebook">
-            </a>
-            <a href="https://twitter.com">
-                <img scr="images/twitter.jpeg" alt="Twitter">
-            </a>
-            <a href="https://instagram.com">
-                <img scr="images/instagram.jpeg" alt="Instagram">
-            </a>
+            <nav >
+                <a class="sociallinks" href="https://facebook.com">
+                    <img src="images/facebook.jpeg" alt="Facebook" style='width:30px;'>
+                </a>
+                <a class="sociallinks" href="https://twitter.com">
+                    <img src="images/twitter.jpeg" alt="Twitter" style="width:30px">
+                </a>
+                <a class="sociallinks" href="https://instagram.com">
+                    <img src="images/instagram.jpeg" alt="Instagram" style="width:30px">
+                </a> 
+            </nav>       
          </footer>
      </body>
  </html>

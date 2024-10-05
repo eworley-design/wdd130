@@ -1,68 +1,84 @@
 :root{
-    primary-color: #023047
-    secondary-color: light blue #8ECAE6
-    accent1-color: orange #FB8500
-    accent2-color: yellow #FFB703 
-}
-
-nav{
-    font-family: quicksand
+    color: #023047;
+    color: #8ECAE6;
+    color: #FB8500;
+    color: #FFB703;
 }
 
 header{
     max-width: 800px;
-	margin: 10rem auto;
+	margin: 1rem auto;
 	font-family: Fredoka;
-    
 }
 
 
 h1{
-
-    text-align: center;
     font-family: Fredoka;
 	font-size: 4rem;
     color:  #023047;
 	text-shadow: 3px 3px 5px #8ECAE6;
-
 }
 
 h2{
-    text-align: center;
     font-family: Fredoka;
 	font-size: 2rem;
     color:  #023047;
 	text-shadow: 3px 3px 5px #8ECAE6;
-
 }
 
 p{
-    text-align: left;
     font-family: quicksand;
-	font-size: rem;
+	font-size: 1rem;
     color:  #023047;
-
-}
-article{
-    position:absolute;
-}
-
-article_image{
-    float:right
 }
 
 footer{
-
-    font-family: quicksand;
-    margin-top: 15px;
     border-top: 1px solid #000;
-    
 }
+
 
 /*Class Selectors*/
 
-.hero img{
+.h1{
+    position: absolute;
+    top: 1px;
+    left: 30px;
+}
+
+.hero{
+    position: relative;
+    text-align: center;
+}
+
+
+
+.hero-img {
     display: block;
     width: 100%;
     height: auto;
+}
+
+.sociallinks{
+    font-family: quicksand;
+    text-decoration: none;
+}
+
+.nav{
+    font-family: quicksand;
+    text-decoration: none;
+}
+  
+.article{
+    position: absolute;
+    padding: 1rem;
+    margin: 10px;
+    background-color: #FFB703;
+    opacity: 80%;
+    bottom: 8px;
+    left: 16px;
+}
+
+
+#article-img{
+    float: right;
 }
